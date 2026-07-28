@@ -1,4 +1,4 @@
-public class InventarioHandler extends AprobadorBaseHandler{
+public class InventarioHandler extends AprobadorBaseHandler {
     private String codigoBodega;
 
     @Override

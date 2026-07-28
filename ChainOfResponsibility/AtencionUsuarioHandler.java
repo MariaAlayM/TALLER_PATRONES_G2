@@ -1,4 +1,4 @@
-public class AtencionUsuarioHandler extends AprobadorBaseHandler{
+public class AtencionUsuarioHandler extends AprobadorBaseHandler {
     private int diasGarantia;
 
     @Override

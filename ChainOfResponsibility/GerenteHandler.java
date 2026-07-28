@@ -1,4 +1,4 @@
-public class GerenteHandler extends AprobadorBaseHandler{
+public class GerenteHandler extends AprobadorBaseHandler { 
     private double precioVenta;
 
     @Override

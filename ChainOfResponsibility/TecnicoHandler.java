@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class TecnicoHandler extends AprobadorBaseHandler{
+public class TecnicoHandler extends AprobadorBaseHandler {
     private List<String> fallosCubiertos;
 
     public void procesarSolicitud(SolicitudCambio s) {
