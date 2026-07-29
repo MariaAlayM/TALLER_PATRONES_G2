@@ -4,6 +4,10 @@ import java.util.List;
 public class Bodega implements Inventario{
     private List<Producto> productos;
 
+    public Bodega(List<Producto> productos){
+        this.productos = productos;
+    }
+
     @Override
     public ActorIterator crearIteratorWeb(){
         ActorIterator compradorWebIterator = new CompradorWebIterator(this);
