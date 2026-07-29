@@ -1,4 +1,4 @@
-public abstract class AprobadorBaseHandler implements AprobacionCambioHandler{
+public abstract class AprobadorBaseHandler implements AprobacionCambioHandler {
     private AprobacionCambioHandler siguiente;
 
     @Override
@@ -7,7 +7,7 @@ public abstract class AprobadorBaseHandler implements AprobacionCambioHandler{
     }
 
     @Override
-    public void procesarSolicitud(SolicitudCambio s){
+    public void procesarSolicitud(SolicitudCambio s) {
         if (siguiente != null) {
             siguiente.procesarSolicitud(s);
         }
